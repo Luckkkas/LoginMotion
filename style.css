@@ -149,7 +149,7 @@ section .signin .content .form {
     font-weight: 600;
 }
 
-.inputBox input [type="sumbit"] {
+.inputBox input [type="submit"] {
     padding: 10px;
     background: #0f0;
     color: #000;
@@ -159,6 +159,6 @@ section .signin .content .form {
     cursor: pointer;
 }
 
-input[type="sumbit"] {
+input[type="submit"] {
     opacity: 0.6;
 }
