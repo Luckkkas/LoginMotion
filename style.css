@@ -48,8 +48,8 @@ section::before {
 section span {
     position: relative;
     display: block;
-    width: calc(6.25vw - 2px);
-    height: calc(6.25vw - 2px);
+    width: calc(4vw - 2px);
+    height: calc(4vw - 2px);
     background: #181818;
     z-index: 2;
     transition: 1.5s;
@@ -70,7 +70,7 @@ section .signin {
     align-items: center;
     padding: 40px;
     border-radius: 4px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 9);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
 }
 
 
@@ -149,7 +149,7 @@ section .signin .content .form {
     font-weight: 600;
 }
 
-.inputBox input [type="submit"] {
+.inputBox input[type="submit"] {
     padding: 10px;
     background: #0f0;
     color: #000;
@@ -159,6 +159,6 @@ section .signin .content .form {
     cursor: pointer;
 }
 
-input[type="submit"] {
+input[type="submit"]:active {
     opacity: 0.6;
 }
