@@ -1,4 +1,4 @@
-LoginMotion 
+GreenSync 
 
 Uma tela de login moderna e animada, com tema visual verde, efeitos de fundo e uma interface minimalista.
 
